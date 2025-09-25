@@ -30,7 +30,7 @@ camera.position.z = 500;
 
 const loader = new FontLoader()
 
-loader.load('public/font/helvetiker_regular.typeface.json' ,(font)=>{
+loader.load('/font/helvetiker_regular.typeface.json' ,(font)=>{
   const textGeo = new TextGeometry("MTR-BRAND!" , {
     font : font,
     size: 100,
